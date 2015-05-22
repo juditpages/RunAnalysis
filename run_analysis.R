@@ -1,5 +1,5 @@
 run_analysis <- function() {
-  
+  ## By Judit Pagès Vives
   
   ## Reading the name of the columns
   dtHead <- read.csv("UCI HAR Dataset/features.txt", header = FALSE, colClasses = "character", sep=" ")  
